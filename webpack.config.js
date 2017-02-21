@@ -12,15 +12,17 @@ const sourceMapsType = `#${sourceMapsDest}source-map`;
 
 let outputFileNameTemplate = '[name]';
 let modulesDirectories = ['node_modules'];
-let preLoaders = [
-    {
-        test: /\.js$/,
-        loader: 'source-map-loader'
-    }
-];
+let preLoaders = [{
+    test: /\.js$/,
+    loader: 'source-map-loader'
+}];
 let loaders = [{
     test: /\.json$/,
     loader: 'json'
+}];
+let postLoaders = [{
+    include: path.resolve(__dirname, 'node_modules/pixi.js'),
+    loader: 'transform/cacheable?brfs'
 }];
 let plugins = [
     new webpack.DefinePlugin({
@@ -130,7 +132,8 @@ module.exports = {
 
     module: {
         preLoaders,
-        loaders
+        loaders,
+        postLoaders
     },
 
     plugins,
