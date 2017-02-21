@@ -1,0 +1,108 @@
+{"frames": {
+
+"virus2_1.png":
+{
+	"frame": {"x":1,"y":81,"w":77,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":77,"h":77},
+	"sourceSize": {"w":77,"h":77}
+},
+"virus2_2.png":
+{
+	"frame": {"x":1,"y":464,"w":70,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":70},
+	"sourceSize": {"w":70,"h":70}
+},
+"virus2_3.png":
+{
+	"frame": {"x":1,"y":680,"w":69,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":69},
+	"sourceSize": {"w":69,"h":69}
+},
+"virus2_4.png":
+{
+	"frame": {"x":1,"y":1,"w":77,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":77,"h":78},
+	"sourceSize": {"w":77,"h":78}
+},
+"virus3_1.png":
+{
+	"frame": {"x":1,"y":160,"w":77,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":77,"h":77},
+	"sourceSize": {"w":77,"h":77}
+},
+"virus3_2.png":
+{
+	"frame": {"x":1,"y":536,"w":70,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":70},
+	"sourceSize": {"w":70,"h":70}
+},
+"virus3_3.png":
+{
+	"frame": {"x":1,"y":318,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+"virus3_4.png":
+{
+	"frame": {"x":1,"y":239,"w":77,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":77,"h":77},
+	"sourceSize": {"w":77,"h":77}
+},
+"virus4_1.png":
+{
+	"frame": {"x":1,"y":751,"w":69,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":69},
+	"sourceSize": {"w":69,"h":69}
+},
+"virus4_2.png":
+{
+	"frame": {"x":1,"y":391,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+"virus4_3.png":
+{
+	"frame": {"x":1,"y":822,"w":69,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":69},
+	"sourceSize": {"w":69,"h":69}
+},
+"virus4_4.png":
+{
+	"frame": {"x":1,"y":608,"w":70,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":70},
+	"sourceSize": {"w":70,"h":70}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "viruses.png",
+	"format": "RGBA8888",
+	"size": {"w":79,"h":892},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:801955f800358744339966a2fb226e2e:ddf5cca08d0c7501540679b81689067c:8ec64d5b4406db7c5b2e3a4341b7d89d$"
+}
+}

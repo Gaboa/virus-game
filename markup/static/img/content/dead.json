@@ -1,0 +1,44 @@
+{"frames": {
+
+"dead_01.png":
+{
+	"frame": {"x":68,"y":76,"w":61,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":59},
+	"sourceSize": {"w":61,"h":59}
+},
+"dead_02.png":
+{
+	"frame": {"x":1,"y":71,"w":65,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":67},
+	"sourceSize": {"w":65,"h":67}
+},
+"dead_03.png":
+{
+	"frame": {"x":1,"y":1,"w":70,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":68},
+	"sourceSize": {"w":70,"h":68}
+},
+"dead_04.png":
+{
+	"frame": {"x":73,"y":1,"w":67,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":73},
+	"sourceSize": {"w":67,"h":73}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "dead.png",
+	"format": "RGBA8888",
+	"size": {"w":141,"h":139},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:82e5e90fa5c0532e8560f9f54d7374f9:642e5e81ef75be6a3be6f477720d7be6:6525ed62030b51131fca56775fe5741d$"
+}
+}

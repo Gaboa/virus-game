@@ -1,0 +1,20 @@
+{"frames": {
+
+"marker.png":
+{
+	"frame": {"x":0,"y":0,"w":42,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":42,"h":22},
+	"sourceSize": {"w":42,"h":22}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "marker.png",
+	"format": "RGBA8888",
+	"size": {"w":42,"h":22},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2b572cf3656eb1c12b02f99689eecf7a:16ac4dcc650048a36841ba951e7a8b85:c7616366c16fd99840b75594285120cd$"
+}
+}
