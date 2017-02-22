@@ -11,6 +11,11 @@
     },
 
     "globals": {
+        "TweenMax": true,
+        "RoughEase": true,
+        "Power0": true,
+        "PIXI": true,
+        "game": true,
         "tars": true
     },
 
