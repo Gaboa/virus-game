@@ -5,6 +5,18 @@ export default {
             url: 'bg.png'
         },
         {
+            name: 'bg_1',
+            url: 'bg/bg_1.jpg'
+        },
+        {
+            name: 'bg_2',
+            url: 'bg/bg_2.jpg'
+        },
+        {
+            name: 'bg_3',
+            url: 'bg/bg_3.jpg'
+        },
+        {
             name: 'buttons',
             url: 'buttons.json'
         },
