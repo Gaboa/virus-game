@@ -11,6 +11,7 @@ export default class Virus extends PIXI.Container {
     }) {
         super();
         this.birthSide = birthSide;
+        this.radius = 35;
         this.calculateStartPosition(this.birthSide);
         if (x) {
             this.x = x;
@@ -22,6 +23,12 @@ export default class Virus extends PIXI.Container {
         this.isAlive = true;
         this.hasToMove = true;
         this.hasToKill = false;
+
+        this.circle = new PIXI.Graphics();
+        this.circle.beginFill(0x000000, 0.3);
+        this.circle.drawCircle(0, 0, this.radius);
+        this.circle.endFill();
+        this.addChild(this.circle);
 
         this.name = name;
         this.length = length;
@@ -102,7 +109,7 @@ export default class Virus extends PIXI.Container {
         this.tween = TweenMax.to(this, 7, {
             x: randomX,
             y: randomY,
-            ease: RoughEase.ease.config({ template: Power0.easeNone, strength: 0.2, points: 20, taper: 'none', randomize: true, clamp: false })
+            ease: RoughEase.ease.config({ template: Power0.easeNone, strength: 1.2, points: 20, taper: 'none', randomize: true, clamp: false })
         });
 
         setTimeout(() => {
@@ -123,7 +130,7 @@ export default class Virus extends PIXI.Container {
         });
     }
     destroy() {
-        super.destroy();
+        this.parent.removeChild(this);
         this.isAlive = false;
         TweenMax.killTweensOf(this);
     }
