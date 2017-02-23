@@ -1,10 +1,6 @@
 export default {
     loadArray: [
         {
-            name: 'bg',
-            url: 'bg.png'
-        },
-        {
             name: 'bg_1',
             url: 'bg/bg_1.jpg'
         },
@@ -17,28 +13,15 @@ export default {
             url: 'bg/bg_3.jpg'
         },
         {
-            name: 'buttons',
-            url: 'buttons.json'
-        },
-        {
-            name: 'marker',
-            url: 'marker.json'
-        },
-        {
-            name: 'info',
-            url: 'info.json'
-        },
-        {
-            name: 'virus1',
-            url: 'virus1.json'
-        },
-        {
-            name: 'dead',
-            url: 'dead.json'
-        },
-        {
             name: 'viruses',
-            url: 'viruses.json'
+            url: 'viruses/viruses.json'
+        },
+        {
+            url: 'buble.png'
+        },
+        {
+            name: 'pochki',
+            url: 'organs/pochki.json'
         }
     ]
 };
