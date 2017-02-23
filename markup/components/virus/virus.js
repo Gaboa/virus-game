@@ -28,7 +28,8 @@ export default class Virus extends PIXI.Container {
         this.circle.beginFill(0x000000, 0.3);
         this.circle.drawCircle(0, 0, this.radius);
         this.circle.endFill();
-        this.addChild(this.circle);
+        // It is debug circle to debug collisions
+        // this.addChild(this.circle);
 
         this.name = name;
         this.length = length;
