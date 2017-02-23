@@ -13,7 +13,10 @@ export default class Init {
             anchor: 0
         });
 
-        this.organ = new Organ();
+        this.organ = new Organ({
+            name: 'po',
+            length: 6
+        });
 
         setInterval(() => {
             let newVirus = new Virus({
@@ -32,12 +35,13 @@ export default class Init {
             virus.update();
 
             if (virus.isCrashed) return;
-            if (virus.isAlive && this.hitTest(virus, this.organ.sprite)) {
+            if (virus.isAlive && this.hitTest(virus, this.organ.buble)) {
                 virus.isCrashed = true;
                 virus.hasToKill = true;
-                console.log('I must kill', virus);
+                this.organ.crash();
             }
         });
+        this.organ.update();
         this.viruses = this.viruses.filter((virus) => virus.isAlive);
     }
     hitTest(sprite1, sprite2) {
